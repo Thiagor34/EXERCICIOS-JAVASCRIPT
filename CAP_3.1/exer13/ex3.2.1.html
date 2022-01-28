@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Programa para Cálculo do Peso Ideal</h1>
+    </header>
+    <img src="balanca-se-pesar.png" alt="Balança de Peso">
+    <section>
+        <div> 
+            <p>Nome: <input type="text" id="inNome"></p>
+            <p>Sexo: <input type="radio" name="sexo" id="rbMasculino">Masculino<input type="radio" name="sexo" id="rbFeminino">Feminimo</p>
+            <p>Altura: <input type="text" id="inAltura"></p>
+            <p><input type="button" value="Calcular Peso" onclick="calcularPeso()"> <input type="button" value="Limpar Campos" onclick="limpar()"></p>
+            <p id="outResposta"></p>
+
+        </div>
+        <div>
+
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; Rodapé</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

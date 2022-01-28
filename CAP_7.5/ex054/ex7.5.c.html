@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Veterinária Avenida</h1>
+    </header>
+    <section>
+        <div>
+            <p>Valor da Vacina: 
+                <input type="text" id="inValor" class="aDireita" autofocus>
+            </p>
+            <p>Possui Convênio:
+                <input type="radio" name="produto" id="rbSim"> Sim
+                <input type="radio" name="produto" id="rbNao" checked> Não
+            </p>
+            <p class="oculta" id="pConvenio"> Convênio: 
+                <select id="selConvenio">
+                  <option value="amigo">Amigo dos Animais</option>
+                  <option value="saude">Saúde Animal</option>
+                </select>
+            </p>
+            <p><input type="button" value="Calcular Desconto" id="btCalcular"></p>
+            <h3 id="outDesconto"></h3>
+            <h3 id="outPagar"></h3>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Rodapé</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
