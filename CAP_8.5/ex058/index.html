@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Exemplo</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="ex058/melancia.png" alt="Melancia">
+            </div>
+            <div class="col-sm-8">
+                <h1>Qual é o peso da Melancia?</h1>
+                <p><label for="inNome">Nome do Apostador: </label>
+                    <input type="text" id="inNome" class="form-control" autofocus>
+                </p>
+                <p><label for="inPeso">Peso (em Gramas):</label>
+                    <input type="text" id="inPeso" class="form-control">
+                </p>
+                <p>
+                    <input type="button" value="Apostar" id="btApostar" class="btn btn-primary">
+                    <input type="button" value="Vencedor" id="btVencedor" class="btn btn-warning">
+                    <input type="button" value="Limpar Apostas" id="btLimpar" class="btn btn-danger">
+                </p>
+                <pre id="outApostas"></pre>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>

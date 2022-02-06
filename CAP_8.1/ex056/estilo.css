@@ -1,0 +1,31 @@
+img {
+    max-width: 100%;
+}
+
+pre {
+    font-size: 1.2em;
+}
+
+.oculta {
+    display: none;
+}
+
+.exibe {
+    display: inline;
+}
+
+.coresAvai {
+    color: white;
+    background-color: rgb(85, 206, 224);
+}
+
+.coresFigueirense {
+    color: rgb(55, 162, 89);
+    background-color: black;
+}
+
+.coresInternacional {
+    color: white;
+    background-color: red;
+}
+
