@@ -1,0 +1,16 @@
+h1 {
+    border-bottom-style: inset;
+}
+
+img.imgProg {
+    max-width: 100%;
+}
+
+.tarefaSelecionada {
+    color: red;
+    font-style: italic;
+}
+
+.tarefaNormal {
+    color: black
+}
